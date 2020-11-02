@@ -1,0 +1,72 @@
+.shell {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.chance {
+  color: whitesmoke;
+}
+
+.whoseTurn {
+  color: whitesmoke;
+}
+.container {
+  margin: 50px 0 0 0;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  margin: 40px 0 0 40px;
+  background-image: url(ticTakBg.jpg);
+}
+
+.centerBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playZone {
+  border: 5px solid red;
+  padding: 3%;
+  width: 30%;
+  height: 30%;
+  color: whitesmoke;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#winner {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .playZone {
+    width: 50%;
+  }
+  /* .shell {
+    height: 30px;
+    width: 30px;
+  } */
+}
+
+@media (min-width: 600px) and (max-width: 780px) {
+  .playZone {
+    width: 60%;
+  }
+  /* 
+  .shell {
+    height: 50px;
+    width: 50px;
+  } */
+}
